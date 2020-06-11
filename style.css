@@ -1,0 +1,131 @@
+/*
+ Theme Name:     czystyizdrowy.rzeszow.pl
+ Theme URI:      http://czystyizdrowy.rzeszow.pl/
+ Description:    Theme for czystyizdrowy.rzeszow.pl.
+ Author:         Mirosław Toton
+ Author URI:     http://dominikamroz.art.pl/
+ Template:       twentyfifteen
+ Version:        1.0
+*/
+
+@import url("../twentyfifteen/style.css");
+
+/**
+ * czystyizdrowy.rzeszow.pl Main
+ * ----------------------------------------------------------------------------
+ */
+
+ 
+/**
+ * czystyizdrowy.rzeszow.pl Forms
+ * ----------------------------------------------------------------------------
+ */
+
+select {
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	line-height: normal;
+	
+	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)); /* Removing the inner shadow on iOS inputs */
+	border: 1px solid #eaeaea;
+	border: 1px solid rgba(51, 51, 51, 0.1);
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	
+	padding: 0.375em;
+	width: 100%;
+}
+
+select:focus {
+	outline: 0;
+}
+
+@media screen and (min-width: 46.25em) {
+	select {
+		padding: 0.5em;
+	}
+}
+
+@media screen and (min-width: 55em) {
+	select {
+		padding: 0.5278em;
+	}
+}
+
+@media screen and (min-width: 59.6875em) {
+	select {
+		padding: 0.375em;
+	}
+}
+
+@media screen and (min-width: 68.75em) {
+	select {
+		padding: 0.5em;
+	}
+}
+
+@media screen and (min-width: 77.5em) {
+	select {
+		padding: 0.5278em;
+	}
+}
+
+/**
+ * czystyizdrowy.rzeszow.pl
+ * ----------------------------------------------------------------------------
+ */
+
+.site-footer .widget {
+	margin: 0;
+	font-size: small;
+	text-align: center;
+}
+
+.site-footer .widget:last-child {
+	margin-bottom: 1%;
+}
+
+.dgwt-jg-caption {
+	text-align: left !important;
+}
+
+.dgwt-jg-caption span {
+	font-size: medium !important;
+	font-weight: normal !important;
+	letter-spacing: inherit !important;
+	padding: 0 0 !important;
+    top: 0 !important;
+    -moz-transform: translateY(0) !important;
+    -webkit-transform: translateY(0) !important;
+    -o-transform: translateY(0) !important;
+    -ms-transform: translateY(0) !important;
+    transform: translateY(0) !important;
+}
+
+.crafty-social-caption {
+	font-weight: 700;
+}
+
+div.crafty-social-buttons {
+	margin-top: 1.6667em;
+}
+
+/**
+ * czystyizdrowy.rzeszow.pl Contact Form 7
+ * ----------------------------------------------------------------------------
+ */
+
+ input.wpcf7-captchar {
+ }
+ 
+img.wpcf7-captchac {
+	vertical-align: top;
+	margin: 10px;
+}
+
+.brds-institutions .wpcf7-list-item {
+	display: block;
+}
+
